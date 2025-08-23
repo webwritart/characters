@@ -44,6 +44,13 @@ body {
     width: 100%;
 }
 
+/*------------------------------------------------ IMAGE GALLERY ----------------------------------------------------*/
+
+.image-gallery-80 {
+    background:black;
+    padding:0% 10%;
+}
+
 /* --------------------------------------------------------- BUTTONS ------------------------------------------------ */
 .btn-1 {
     background: #9f2ca2;
@@ -248,6 +255,29 @@ ul li:hover {
     padding-bottom: 5%;
 }
 
+/*-------------------------------------------- SECONDARY NAVBAR -----------------------------------------------------*/
+
+.secondary-navbar {
+    display: flex;
+    background: black;
+    justify-content: center;
+    padding: 0.2% 0%;
+    position: sticky;
+    top: 3.5%;
+}
+.secondary-navbar a {
+    text-align: center;
+    padding: 0% 1%;
+    background: #383838;
+    text-decoration: none;
+    color: white;
+    margin: 0% 0.2%;
+}
+.secondary-navbar a:hover {
+    background: #828282;
+    text-decoration: none;
+}
+
 /* ------------------------------------------------------ FOOTER ------------------------------------------------- */
 
 #footer {
@@ -292,6 +322,14 @@ ul li:hover {
     color: red;
 }
 
+/*--------------------------------------------------MISCELLANEOUS-----------------------------------------------------*/
+
+#complete-portfolio {
+    margin-top: 1%;
+    width:30%;
+    text-decoration:none;
+}
+
 /* ---------------------------------------------------- RESPONSIVE -------------------------------------------------- */
 @media only screen and (max-width: 600px) {
     header nav {
@@ -303,6 +341,20 @@ ul li:hover {
     .heading-large {
         font-size: 1.5rem;
         font-weight: 400;
+    }
+    .heading-extra-large {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .secondary-navbar {
+        top: 5%;
+    }
+    #complete-portfolio {
+        font-size: 1rem;
+        width:50%;
+    }
+    .image-gallery-80 {
+        padding: 0% 5%;
     }
 }
 @media only screen and (min-width: 600px) {
@@ -316,11 +368,27 @@ ul li:hover {
         font-size: 1.7rem;
         font-weight: 400;
     }
+    .heading-extra-large {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    #complete-portfolio {
+        font-size: 1.3rem;
+        width:50%;
+    }
 }
 @media only screen and (min-width: 900px) {
     .heading-large {
         font-size: 2.1rem;
         font-weight: 400;
+    }
+    .heading-extra-large {
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+    #complete-portfolio {
+        font-size: 1.5rem;
+        width:50%;
     }
 }
 
@@ -335,6 +403,13 @@ ul li:hover {
         font-size: 2.2rem;
         font-weight: 400;
     }
+    .heading-extra-large {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    #complete-portfolio {
+        font-size: 1.8rem;
+    }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -346,6 +421,10 @@ ul li:hover {
     }
     .heading-large {
         font-size: 2.3rem;
+        font-weight: 400;
+    }
+    .heading-extra-large {
+        font-size: 3rem;
         font-weight: 400;
     }
 }
