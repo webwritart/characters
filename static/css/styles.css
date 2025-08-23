@@ -262,7 +262,7 @@ ul li:hover {
 
 .secondary-navbar {
     display: flex;
-    background: red;
+    background: black;
     justify-content: center;
     padding: 0.2% 0%;
     position: sticky;
